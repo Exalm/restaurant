@@ -1,0 +1,18 @@
+.galery-title   {
+    font-family: var(--Tinos);
+    font-size: 54px;
+    line-height: 62.09px;
+    text-align: center;
+    margin-top: 101px;
+    margin-bottom: 60px;
+}
+
+.galery__content,
+.galery-down,
+.galery-up     {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 20px;
+}

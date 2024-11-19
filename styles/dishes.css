@@ -1,0 +1,38 @@
+.dishes {
+    width: 100%;
+    margin-top: 132px;
+}
+
+.dishes__title  {
+    font-family: var(--Tinos);
+    font-size: 54px;
+    text-align: center;
+    margin-bottom: 139px;
+}
+
+.dishes__title span {
+    color: var(--text-color)
+}
+
+.burgers    {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pizza  {
+    margin-right: 20px;
+}
+
+.burger-image   {
+    display: flex;
+    align-items: center;
+    margin-bottom: 29px;
+}
+
+.burger__text   {
+    font-family: var(--Tinos);
+    font-size: 26px;
+    line-height: 29.9px;
+    margin-left: 20px;
+}

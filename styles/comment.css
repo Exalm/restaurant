@@ -1,0 +1,29 @@
+.comment    {
+    font-family: var(--Open-Sans-italic);
+    text-align: center;
+    background-color: #E5E5E5;
+    padding-bottom: 140px;
+    padding-top: 104px;
+}
+
+.comment-text   {
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+
+.comment-image  {
+    margin-bottom: 16px;
+}
+
+.comment-type   {
+    font-family: var(--Open-Sans);
+    margin-bottom: 10px;
+    font-weight: 600;
+    line-height: 27.24px;
+}
+
+.comment-name   {
+    font-family: var(--Open-Sans);
+    font-size: 20px;
+    line-height: 27.24px;
+}

@@ -1,0 +1,93 @@
+@media (max-width: 1024px) {
+    
+    /* body */
+
+    body    {
+        overflow-x:hidden;
+    }
+    /* бургер */
+
+    .header__burger-btn {
+        display: none;
+    }
+
+    /* редактирование контейнера */
+
+    .container  {
+        width: 819.2px;
+        margin: 0 auto;
+    }
+
+    /* header */
+    
+    
+    /* редактирование блока карточек */
+    .card__title  {
+        font-size: 22px;
+    }
+
+    .card__desc {
+        font-size: 20px;
+    }
+
+    .card   {
+        margin-top: 10px;
+    }
+
+    /* редактирование блока с историей */
+    .history    {
+        width: 1024px;
+    }
+
+    .history__holder    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .images-1   {
+        top: -398px;
+        left: 456px;
+    }
+
+    .images-2   {
+        top: -214px;
+        left: 541px;
+    }
+
+    .images-3   {
+        top: -666px;
+        left: 631px;
+    }
+    /* редактирование карточек меню*/
+
+    .menu-item  {
+        width: 250px;
+    }
+
+    .price-ellipce  {
+        display: none;
+    }
+
+    /* редактирование блока с фотографиями блюд и их ценами */
+    
+    .burgers-mini   {
+        margin-top: 50px;
+    }
+
+    /* редактирование галереи */
+
+    .galery-left,
+    .galery-right  {
+        margin: 0 auto;
+    }
+
+    /* редактирование блока с поварами */
+
+    .cooks  img  {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+}

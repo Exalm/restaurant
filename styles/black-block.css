@@ -1,0 +1,48 @@
+.black-block    {
+    width: 100%;
+    height: 357px;
+    background-image: url(../images/black-block__bg.svg);
+}
+
+.black-block__inner {
+    width: 100%;
+    height: 357px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-title {
+    color: var(--text-color);
+    font-size: 52px;
+    font-family: var(--Tinos);
+    margin-bottom: 20px;
+}
+
+.left-desc  {
+    color: var(--white);
+    font-size: 24px;
+    font-family: var(--Open-Sans);
+    font-weight: 700;
+}
+
+.right-btn   {
+    background-color: var(--btn-bg);
+    color: #fff;
+    padding: 14px 19px;
+    font-weight: 700;
+    line-height: 19.07px;
+    transition: background-color 0.3s linear;
+}
+
+.right-btn:hover  {
+    background-color: rgb(128, 75, 6);
+}
+
+.right-btn  {
+    color: var(--white);
+    font-weight: 700;
+    font-family: var(--Open-Sans);
+    font-size: 14px;
+}
+
